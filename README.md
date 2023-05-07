@@ -1,2 +1,2 @@
 # CryptoClustering
-In this challenge, I used unsupervised machine learning to determine 
+In this challenge, I used unsupervised machine learning to analyze price change data for various cryptocurrencies. The raw data was scaled, and an optimal k-means was determined. I used Python and sickit-learn to cluster the data while comparing 24-hour price changes with 7-day price changes for each cryptocurrency analyzed. I then used Principle Component Analysis to reduce the dimensionality of the dataset and re-clustered the cryptocurrencies to increase interpretability. Using PCA resulted in clusters with a tighter spread. 
